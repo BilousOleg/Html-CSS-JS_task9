@@ -31,3 +31,10 @@ const notANumber = 'qwerty';
 console.log(toInteger(notANumber)); // Якщо передано не число
 
 // Аналог - метод Math.trunc(), який і використовується
+
+// Завдання 3
+
+const userName = prompt("Введіть своє ім'я");
+
+// Вивід у модальне вікно за допомогою метода рядка .toUpperCase()
+alert(userName.toUpperCase());
