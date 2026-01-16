@@ -1,7 +1,6 @@
 /**
  * Function gets number and returns its integer part
  * If number is already integer, returns number.
- * Uses Math.trunc()
  * @param {number} floatNumber number to make integer
  * @returns {number | null} number if typeof is number, null if not
  */
@@ -16,7 +15,6 @@ function toInteger(floatNumber) {
 /**
  * Function gets number and returns its integer part.
  * If number is already integer, returns number.
- * Uses Math.trunc()
  * @param {number} floatNumber number to make integer
  * @returns {number | null} number if typeof is number, null if not
  */
