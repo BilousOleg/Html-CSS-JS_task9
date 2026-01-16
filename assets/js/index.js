@@ -1,4 +1,6 @@
 const userName = prompt("Введіть своє ім'я");
 
-// Вивід у модальне вікно за допомогою метода рядка .toUpperCase()
-alert(userName.toUpperCase());
+if (typeof userName === 'string') {
+  // Вивід у модальне вікно за допомогою метода рядка .toUpperCase()
+  alert(userName.toUpperCase());
+}
